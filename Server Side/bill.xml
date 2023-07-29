@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<bill>
+    <coffee>5</coffee>
+    <tea>0</tea>
+    <soda>0</soda>
+    <sandwich>0</sandwich>
+    <salad>4</salad>
+    <pie>0</pie>
+    <total>293</total>
+</bill><?xml version='1.0'?>
+<bill>
+    <coffee>0</coffee>
+    <tea>0</tea>
+    <soda>0</soda>
+    <sandwich>0</sandwich>
+    <salad>4</salad>
+    <pie>0</pie>
+    <total>168</total>
+</bill><?xml version='1.0'?>
+<bill>
+    <coffee>2</coffee>
+    <tea>1</tea>
+    <soda>0</soda>
+    <sandwich>0</sandwich>
+    <salad>2</salad>
+    <pie>0</pie>
+    <total>149</total>
+</bill><?xml version='1.0'?>
+<bill>
+    <coffee>3</coffee>
+    <tea>3</tea>
+    <soda>0</soda>
+    <sandwich>0</sandwich>
+    <salad>2</salad>
+    <pie>4</pie>
+    <total>344</total>
+</bill><?xml version='1.0'?>
+<bill>
+    <coffee>3</coffee>
+    <tea>1</tea>
+    <soda>0</soda>
+    <sandwich>0</sandwich>
+    <salad>1</salad>
+    <pie>0</pie>
+    <total>132</total>
+</bill><?xml version='1.0'?>
+<bill>
+    <coffee>0</coffee>
+    <tea>2</tea>
+    <soda>0</soda>
+    <sandwich>2</sandwich>
+    <salad>0</salad>
+    <pie>0</pie>
+    <total>140</total>
+</bill><?xml version='1.0'?>
+<bill>
+    <coffee>0</coffee>
+    <tea>2</tea>
+    <soda>0</soda>
+    <sandwich>2</sandwich>
+    <salad>0</salad>
+    <pie>0</pie>
+    <total>140</total>
+</bill><?xml version='1.0'?>
+<bill>
+    <coffee>0</coffee>
+    <tea>2</tea>
+    <soda>0</soda>
+    <sandwich>2</sandwich>
+    <salad>0</salad>
+    <pie>0</pie>
+    <total>140</total>
+</bill><?xml version='1.0'?>
+<bill>
+    <coffee>2</coffee>
+    <tea>0</tea>
+    <soda>0</soda>
+    <sandwich>0</sandwich>
+    <salad>1</salad>
+    <pie>1</pie>
+    <total>127</total>
+</bill><?xml version='1.0'?>
+<bill>
+    <coffee>1</coffee>
+    <tea>1</tea>
+    <soda>1</soda>
+    <sandwich>0</sandwich>
+    <salad>0</salad>
+    <pie>0</pie>
+    <total>57</total>
+</bill>
