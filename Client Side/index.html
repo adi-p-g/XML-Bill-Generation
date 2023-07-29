@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Menu</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./scripts.js" defer></script>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap'); </style>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap'); </style>
+    <style> @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap'); </style>
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">Cafe Menu</h1>
+    </header>
+
+    <form id="form">
+        <h2 class="food-item">Drinks</h2>
+        <div class="menu-items">
+        <label for="coffee">Coffee : Rs 25</label>
+        <input type="number" id="coffee" name="coffee" min="0" value="0" />
+        <br />
+        <label for="tea">Tea : Rs 15</label>
+        <input type="number" id="tea" name="tea" min="0" value="0" />
+        <br />
+        <label for="soda">Soda : Rs 17</label>
+        <input type="number" id="soda" name="soda" min="0" value="0" />
+        <br />
+        </div>
+  
+        <h2 class="food-item">Food</h2>
+        <div class="menu-items">
+        <label for="sandwich">Sandwich : Rs 55</label>
+        <input type="number" id="sandwich" name="sandwich" min="0" value="0" />
+        <br />
+        <label for="salad">Salad : Rs 42</label>
+        <input type="number" id="salad" name="salad" min="0" value="0" />
+        <br />
+        <label for="pie">Pie : Rs 35</label>
+        <input type="number" id="pie" name="pie" min="0" value="0" />
+        <br />
+        <br />
+        </div>
+  
+        <h2>Total Bill:</h2>
+        <p id="total"></p>
+  
+        <br />
+        <button type="button" id="generateBtn">Generate Bill</button>
+      </form>
+    </form>
+</body>
+</html>

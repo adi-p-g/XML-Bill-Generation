@@ -1,0 +1,99 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Make the website take up the full screen and center the content */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  background-color: #344e41;
+  color: aquamarine;
+}
+
+.header {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #a3b18a;
+  padding: 5px;
+  border: 2px solid #a3b18a;
+  border-radius: 5px;
+}
+
+.title {
+  font-family: "Satisfy", cursive;
+}
+
+/* Style the form and button */
+form {
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+form button {
+  background-color: #344e41;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #a3b18a;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: white;
+  color: #344e41;
+  border: 1px solid black;
+}
+
+form button:active {
+  color: yellow;
+  background-color: blue;
+  border: 1px solid pink;
+}
+
+input[type="number"] {
+  max-width: 40px;
+  height: 25px;
+  background: transparent;
+  border: 1px solid wheat;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 4px;
+  color: #a3b18a;
+  font-weight: 800;
+}
+
+input[type="number"]:focus {
+  border-color: orange;
+  box-shadow: 0 0 5px orange;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  /* -webkit-appearance: none; */
+  background-color: #37474f;
+  color: #a3b18a;
+  margin: 0;
+}
+
+.food-item {
+  font-family: "Share Tech Mono", monospace;
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
